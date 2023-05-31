@@ -100,14 +100,14 @@ ul li a:hover {
   }
   
 
-/* Social links */
+/* Social links --------------------------------*/
 #social-links  {
   display: flex;
   justify-content: center;
 
   padding: 24px 0;
-
-  font-size: 24px;
+  gap: 16;
+  font-size: 24px; /* mudando de todos os elementos dentro do social links*/
   }
 
   #social-links a {
@@ -121,9 +121,13 @@ ul li a:hover {
   }
   
   #social-links a:hover {
-    background: var(--highlight-color);
+    background: rgba(255, 255, 255, 0.05);
+    padding: 16px;
+    border-radius: 50%;
   }
-  
+  /*Fim Social links --------------------------------*/
+
+
   footer {
     padding: 24px 0;
     text-align: center;
