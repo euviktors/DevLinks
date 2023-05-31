@@ -3,19 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body
-{
+/*----------------------------------------------------------------------------------------------------------------*/
+body {
     /* Fundo do projeto
     background-image: url(./assets/bg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     */
-
-    background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover; /*parte resumida do codigo acima*/
 }
-
+/*----------------------------------------------------------------------------------------------------------------*/
 body * 
 /* quando tem o '*' significa que é um seletor universal
 para aplicar a todos os elementos do body*/
