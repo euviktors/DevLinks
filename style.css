@@ -129,7 +129,12 @@ ul li a:hover {
 
 
   footer {
+    color: rgba(255, 255, 255, 0.61);
     padding: 24px 0;
     text-align: center;
     font-size: 16px;
+  }
+/*coração do rodapé --------------------------------*/
+  footer ion-icon{
+    color: rgba(255, 255, 255, 0.61);
   }
